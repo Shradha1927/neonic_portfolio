@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Send } from 'lucide-react';
+import { Mail, MapPin, Github, Linkedin, Twitter, Send } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 const socialLinks = [
@@ -69,17 +69,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="font-medium text-foreground">Email</p>
-                  <p className="text-muted-foreground">shradha.dev@example.com</p>
-                </div>
-              </div>
-
-              <div className="flex items-center space-x-4 group">
-                <div className="w-12 h-12 rounded-lg bg-gradient-secondary flex items-center justify-center glow-secondary group-hover:glow-primary transition-all duration-300">
-                  <Phone className="h-6 w-6 text-background" />
-                </div>
-                <div>
-                  <p className="font-medium text-foreground">Phone</p>
-                  <p className="text-muted-foreground">+91 98765 43210</p>
+                  <p className="text-muted-foreground">kshradha341@gmail.com</p>
                 </div>
               </div>
 
@@ -89,7 +79,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="font-medium text-foreground">Location</p>
-                  <p className="text-muted-foreground">Mumbai, India</p>
+                  <p className="text-muted-foreground">New Delhi, India</p>
                 </div>
               </div>
             </div>

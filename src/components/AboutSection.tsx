@@ -95,22 +95,6 @@ const AboutSection = () => {
                 })}
               </div>
             </div>
-
-            {/* Stats */}
-            <div className="grid grid-cols-3 gap-6 pt-8 border-t border-border/30">
-              <div className="text-center">
-                <div className="text-3xl font-bold gradient-text mb-2">50+</div>
-                <div className="text-sm text-muted-foreground">Projects</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold gradient-text mb-2">3+</div>
-                <div className="text-sm text-muted-foreground">Years Exp</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold gradient-text mb-2">100+</div>
-                <div className="text-sm text-muted-foreground">Commits</div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
