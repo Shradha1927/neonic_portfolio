@@ -3,28 +3,28 @@ import { Button } from '@/components/ui/button';
 
 const experiences = [
   {
-    company: 'Bluestock.in',
-    role: 'SDE Intern',
-    duration: '2024',
-    location: 'Remote',
-    description: 'Developed responsive web applications using React and Node.js. Implemented real-time features and optimized performance.',
-    technologies: ['React', 'Node.js', 'MongoDB', 'Socket.io'],
-    logo: '🚀'
-  },
-  {
     company: 'Trackila',
     role: 'Python Developer',
-    duration: 'April 2024 - May 2024',
+    duration: 'August 2025 - Present',
     location: 'Remote',
     description: 'Managed dashboard development and implementation. Built Python-based solutions for data management and visualization.',
     technologies: ['Python', 'Dashboard', 'Data Management'],
     logo: '🐍'
   },
   {
+    company: 'Bluestock.in',
+    role: 'SDE Intern',
+    duration: 'April 2024 - May 2024',
+    location: 'Remote',
+    description: 'Developed responsive web applications using React and Node.js. Implemented real-time features and optimized performance.',
+    technologies: ['React', 'Node.js', 'MongoDB', 'Socket.io'],
+    logo: '🚀'
+  },
+  {
     company: 'Events INFO',
     role: 'Web Developer',
     duration: '2022 - 2023',
-    location: 'Mumbai, India',
+    location: 'Remote',
     description: 'Built event management platforms with dynamic content and interactive user interfaces. Integrated payment gateways.',
     technologies: ['JavaScript', 'HTML/CSS', 'PHP', 'MySQL'],
     logo: '🎯'
@@ -131,6 +131,7 @@ const ExperienceSection = () => {
           <Button 
             size="lg"
             className="bg-gradient-secondary hover:glow-secondary transition-all duration-300 px-8 py-6"
+            onClick={() => window.open('https://drive.google.com/file/d/1K1RNZP0_UvSrJoDj7poSfYuxidLqDxSF/view?usp=sharing', '_blank')}
           >
             View Full Resume
           </Button>

@@ -168,6 +168,7 @@ const ProjectsSection = () => {
             size="lg"
             variant="outline"
             className="glass-card border-primary/30 hover:glow-primary transition-all duration-300 px-8 py-6"
+            onClick={() => window.open('https://github.com/Shradha1927', '_blank')}
           >
             View All Projects
           </Button>
