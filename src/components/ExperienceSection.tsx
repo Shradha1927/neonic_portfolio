@@ -5,11 +5,20 @@ const experiences = [
   {
     company: 'Bluestock.in',
     role: 'SDE Intern',
-    duration: '2023 - 2024',
+    duration: '2024',
     location: 'Remote',
     description: 'Developed responsive web applications using React and Node.js. Implemented real-time features and optimized performance.',
     technologies: ['React', 'Node.js', 'MongoDB', 'Socket.io'],
     logo: '🚀'
+  },
+  {
+    company: 'Trackila',
+    role: 'Python Developer',
+    duration: 'April 2024 - May 2024',
+    location: 'Remote',
+    description: 'Managed dashboard development and implementation. Built Python-based solutions for data management and visualization.',
+    technologies: ['Python', 'Dashboard', 'Data Management'],
+    logo: '🐍'
   },
   {
     company: 'Events INFO',
@@ -19,15 +28,6 @@ const experiences = [
     description: 'Built event management platforms with dynamic content and interactive user interfaces. Integrated payment gateways.',
     technologies: ['JavaScript', 'HTML/CSS', 'PHP', 'MySQL'],
     logo: '🎯'
-  },
-  {
-    company: 'Dev Community',
-    role: 'Technical Coordinator',
-    duration: '2021 - 2022',
-    location: 'Mumbai, India',
-    description: 'Organized technical workshops and hackathons. Mentored junior developers and contributed to open-source projects.',
-    technologies: ['Community Building', 'Mentoring', 'Open Source'],
-    logo: '👥'
   }
 ];
 
