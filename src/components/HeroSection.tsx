@@ -4,15 +4,13 @@ import { Copy } from 'lucide-react';
 const HeroSection = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden hero-bg">
-      {/* Spline 3D Background */}
+      {/* Animated Background */}
       <div className="absolute inset-0 w-full h-full">
-        <iframe 
-          src="https://my.spline.design/animatedshapeblend-d4c3c3bb32e3b8d5c3e3a9b8c3e3b8d5/" 
-          frameBorder="0" 
-          width="100%" 
-          height="100%"
-          className="opacity-60"
-        />
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-secondary/10"></div>
+        <div className="absolute inset-0 opacity-30">
+          <div className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full bg-gradient-to-r from-primary/20 to-transparent blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-1/4 right-1/4 w-80 h-80 rounded-full bg-gradient-to-l from-secondary/20 to-transparent blur-3xl animate-pulse" style={{animationDelay: '1s'}}></div>
+        </div>
       </div>
 
       {/* Floating Neon Orbs */}
