@@ -64,11 +64,7 @@ const HeroSection = () => {
               size="lg"
               className="glass-card border-primary/30 hover:glow-primary transition-all duration-300 px-8 py-6 text-lg"
               onClick={() => {
-                // Create a link to download the CV
-                const link = document.createElement('a');
-                link.href = '/cv-shradha-kapoor.pdf'; // You'll need to add this PDF to the public folder
-                link.download = 'Shradha-Kapoor-CV.pdf';
-                link.click();
+                window.open('https://drive.google.com/file/d/1K1RNZP0_UvSrJoDj7poSfYuxidLqDxSF/view?usp=sharing', '_blank');
               }}
             >
               <Copy className="mr-2 h-5 w-5" />
